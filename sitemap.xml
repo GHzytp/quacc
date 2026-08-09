@@ -262,6 +262,9 @@
         <loc>https://quantum-accelerators.github.io/quacc/reference/quacc/recipes/vasp/matpes.html</loc>
       </url>
       <url>
+        <loc>https://quantum-accelerators.github.io/quacc/reference/quacc/recipes/vasp/mattersim.html</loc>
+      </url>
+      <url>
         <loc>https://quantum-accelerators.github.io/quacc/reference/quacc/recipes/vasp/md.html</loc>
       </url>
       <url>
@@ -269,6 +272,9 @@
       </url>
       <url>
         <loc>https://quantum-accelerators.github.io/quacc/reference/quacc/recipes/vasp/mp24.html</loc>
+      </url>
+      <url>
+        <loc>https://quantum-accelerators.github.io/quacc/reference/quacc/recipes/vasp/mp_aloe.html</loc>
       </url>
       <url>
         <loc>https://quantum-accelerators.github.io/quacc/reference/quacc/recipes/vasp/mp_legacy.html</loc>

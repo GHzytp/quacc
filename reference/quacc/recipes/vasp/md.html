@@ -15,7 +15,7 @@
         <link rel="canonical" href="https://quantum-accelerators.github.io/quacc/reference/quacc/recipes/vasp/md.html">
       
       
-        <link rel="prev" href="./matpes.html">
+        <link rel="prev" href="./mattersim.html">
       
       
         <link rel="next" href="./mof_off.html">
@@ -25,7 +25,7 @@
       
       
       <link rel="icon" href="../../../../images/quacc_favicon.png">
-      <meta name="generator" content="zensical-0.0.52">
+      <meta name="generator" content="zensical-0.0.53">
     
     
       
@@ -36,7 +36,7 @@
       
         
       
-      <link rel="stylesheet" href="../../../../assets/stylesheets/modern/main.8b3b5a67.min.css">
+      <link rel="stylesheet" href="../../../../assets/stylesheets/modern/main.20815dad.min.css">
       
         
           
@@ -4479,6 +4479,33 @@
                 
   
   
+  
+  
+    <li class="md-nav__item">
+      <a href="./mattersim.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  mattersim
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
     
   
   
@@ -4609,6 +4636,33 @@
     
   
   mp24
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="./mp_aloe.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  mp_aloe
 
     
   </span>
@@ -6357,7 +6411,7 @@
 </span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>    <span class="n">atoms</span><span class="p">:</span> <span class="n"><span title="ase.atoms.Atoms">Atoms</span></span><span class="p">,</span>
 </span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>    <span class="n">preset</span><span class="p">:</span> <span class="n"><a class="autorefs autorefs-external" href="https://docs.python.org/3/library/stdtypes.html#str">str</a></span> <span class="o">|</span> <span class="kc">None</span> <span class="o">=</span> <span class="s2">&quot;DefaultSetGGA&quot;</span><span class="p">,</span>
 </span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>    <span class="n">timestep</span><span class="p">:</span> <span class="n"><a class="autorefs autorefs-external" href="https://docs.python.org/3/library/functions.html#float">float</a></span> <span class="o">=</span> <span class="mf">0.5</span><span class="p">,</span>
-</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>    <span class="n">nsteps</span><span class="p">:</span> <span class="n"><a class="autorefs autorefs-external" href="https://docs.python.org/3/library/functions.html#int">int</a></span> <span class="o">=</span> <span class="mi">2000</span><span class="p">,</span>
+</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>    <span class="n">nsteps</span><span class="p">:</span> <span class="n"><a class="autorefs autorefs-external" href="https://docs.python.org/3/library/functions.html#int">int</a></span> <span class="o">=</span> <span class="mi">20000</span><span class="p">,</span>
 </span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>    <span class="n">ensemble</span><span class="p">:</span> <span class="n"><a class="autorefs autorefs-external" title="typing.Literal" href="https://docs.python.org/3/library/typing.html#typing.Literal">Literal</a></span><span class="p">[</span><span class="s2">&quot;nve&quot;</span><span class="p">,</span> <span class="s2">&quot;nvt&quot;</span><span class="p">,</span> <span class="s2">&quot;npt&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;nvt&quot;</span><span class="p">,</span>
 </span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>    <span class="n">temperature</span><span class="p">:</span> <span class="n"><a class="autorefs autorefs-external" href="https://docs.python.org/3/library/functions.html#float">float</a></span> <span class="o">=</span> <span class="mf">300.0</span><span class="p">,</span>
 </span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>    <span class="n">pressure</span><span class="p">:</span> <span class="n"><a class="autorefs autorefs-external" href="https://docs.python.org/3/library/functions.html#float">float</a></span> <span class="o">=</span> <span class="mf">1.0</span><span class="p">,</span>
@@ -6410,7 +6464,7 @@
         <li class="doc-section-item field-body">
             <b><code>nsteps</code></b>
               (<code><a class="autorefs autorefs-external" href="https://docs.python.org/3/library/functions.html#int">int</a></code>, default:
-                  <code>2000</code>
+                  <code>20000</code>
 )
           –
           <div class="doc-md-description">
@@ -6573,7 +6627,7 @@ the recipe defaults. Set a value to None to remove a pre-existing key entirely.<
 </span><span id="__span-0-21"><a id="__codelineno-0-21" name="__codelineno-0-21"></a>    <span class="n">atoms</span><span class="p">:</span> <span class="n">Atoms</span><span class="p">,</span>
 </span><span id="__span-0-22"><a id="__codelineno-0-22" name="__codelineno-0-22"></a>    <span class="n">preset</span><span class="p">:</span> <span class="nb">str</span> <span class="o">|</span> <span class="kc">None</span> <span class="o">=</span> <span class="s2">&quot;DefaultSetGGA&quot;</span><span class="p">,</span>
 </span><span id="__span-0-23"><a id="__codelineno-0-23" name="__codelineno-0-23"></a>    <span class="n">timestep</span><span class="p">:</span> <span class="nb">float</span> <span class="o">=</span> <span class="mf">0.5</span><span class="p">,</span>
-</span><span id="__span-0-24"><a id="__codelineno-0-24" name="__codelineno-0-24"></a>    <span class="n">nsteps</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">2000</span><span class="p">,</span>
+</span><span id="__span-0-24"><a id="__codelineno-0-24" name="__codelineno-0-24"></a>    <span class="n">nsteps</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">20000</span><span class="p">,</span>
 </span><span id="__span-0-25"><a id="__codelineno-0-25" name="__codelineno-0-25"></a>    <span class="n">ensemble</span><span class="p">:</span> <span class="n">Literal</span><span class="p">[</span><span class="s2">&quot;nve&quot;</span><span class="p">,</span> <span class="s2">&quot;nvt&quot;</span><span class="p">,</span> <span class="s2">&quot;npt&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;nvt&quot;</span><span class="p">,</span>
 </span><span id="__span-0-26"><a id="__codelineno-0-26" name="__codelineno-0-26"></a>    <span class="n">temperature</span><span class="p">:</span> <span class="nb">float</span> <span class="o">=</span> <span class="mf">300.0</span><span class="p">,</span>
 </span><span id="__span-0-27"><a id="__codelineno-0-27" name="__codelineno-0-27"></a>    <span class="n">pressure</span><span class="p">:</span> <span class="nb">float</span> <span class="o">=</span> <span class="mf">1.0</span><span class="p">,</span>
@@ -6701,7 +6755,7 @@ the recipe defaults. Set a value to None to remove a pre-existing key entirely.<
       <nav class="md-footer__inner md-grid" aria-label="Footer" >
         
           
-          <a href="./matpes.html" class="md-footer__link md-footer__link--prev" aria-label="Previous: matpes">
+          <a href="./mattersim.html" class="md-footer__link md-footer__link--prev" aria-label="Previous: mattersim">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-arrow-left" viewBox="0 0 24 24"><path d="m12 19-7-7 7-7M19 12H5"/></svg>
@@ -6711,7 +6765,7 @@ the recipe defaults. Set a value to None to remove a pre-existing key entirely.<
                 Previous
               </span>
               <div class="md-ellipsis">
-                matpes
+                mattersim
               </div>
             </div>
           </a>
@@ -6780,7 +6834,7 @@ the recipe defaults. Set a value to None to remove a pre-existing key entirely.<
       <script id="__config" type="application/json">{"annotate":null,"base":"../../../..","features":["content.action.edit","content.code.copy","content.code.select","content.code.annotate","content.tabs.link","content.tooltips","navigation.footer","navigation.path","navigation.tracking","navigation.sections","navigation.top","search.highlight","search.suggest","search.share","header.autohide","toc.follow"],"search":"../../../../assets/javascripts/workers/search.7d14d953.min.js","tags":null,"translations":{"clipboard.copied":"Copied to clipboard","clipboard.copy":"Copy to clipboard","search.result.more.one":"1 more on this page","search.result.more.other":"# more on this page","search.result.none":"No matching documents","search.result.one":"1 matching document","search.result.other":"# matching documents","search.result.placeholder":"Type to start searching","search.result.term.missing":"Missing","select.version":"Select version"},"version":null}</script>
     
     
-      <script src="../../../../assets/javascripts/bundle.ed145cee.min.js"></script>
+      <script src="../../../../assets/javascripts/bundle.69c251d7.min.js"></script>
       
     
   </body>
