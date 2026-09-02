@@ -19,6 +19,9 @@
         <loc>https://quantum-accelerators.github.io/quacc/user/recipes/workflows.html</loc>
       </url>
       <url>
+        <loc>https://quantum-accelerators.github.io/quacc/user/recipes/file_transfers.html</loc>
+      </url>
+      <url>
         <loc>https://quantum-accelerators.github.io/quacc/user/recipes/mlip_recipes.html</loc>
       </url>
       <url>
@@ -53,9 +56,6 @@
       </url>
       <url>
         <loc>https://quantum-accelerators.github.io/quacc/user/db/basics.html</loc>
-      </url>
-      <url>
-        <loc>https://quantum-accelerators.github.io/quacc/user/miscellaneous/file_transfers.html</loc>
       </url>
       <url>
         <loc>https://quantum-accelerators.github.io/quacc/user/miscellaneous/torchsim.html</loc>

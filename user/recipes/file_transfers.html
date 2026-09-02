@@ -12,13 +12,13 @@
         <meta name="author" content="Andrew S. Rosen">
       
       
-        <link rel="canonical" href="https://quantum-accelerators.github.io/quacc/user/miscellaneous/file_transfers.html">
+        <link rel="canonical" href="https://quantum-accelerators.github.io/quacc/user/recipes/file_transfers.html">
       
       
-        <link rel="prev" href="../db/basics.html">
+        <link rel="prev" href="./workflows.html">
       
       
-        <link rel="next" href="./torchsim.html">
+        <link rel="next" href="./mlip_recipes.html">
       
       
         
@@ -439,6 +439,8 @@
                 
   
   
+    
+  
   
   
     
@@ -448,11 +450,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_1" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_1" checked>
         
           
           <label class="md-nav__link" for="__nav_3_1" id="__nav_3_1_label" tabindex="0">
@@ -472,7 +474,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_1_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_1_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_3_1">
             <span class="md-nav__icon md-icon"></span>
             
@@ -489,7 +491,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../recipes/recipes_intro.html" class="md-nav__link">
+      <a href="./recipes_intro.html" class="md-nav__link">
         
   
   
@@ -516,7 +518,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../recipes/workflows.html" class="md-nav__link">
+      <a href="./workflows.html" class="md-nav__link">
         
   
   
@@ -540,10 +542,134 @@
                 
   
   
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Transferring Files
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="file_transfers.html" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Transferring Files
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+
+<nav class="md-nav md-nav--secondary" aria-label="On this page">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      On this page
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#local-file-transfers" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Local File Transfers
+      </span>
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Local File Transfers">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#transfers-from-a-known-file-location" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Transfers from a Known File Location
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#transfers-between-jobs" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Transfers Between Jobs
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#non-local-file-transfers" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Non-Local File Transfers
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
   
   
     <li class="md-nav__item">
-      <a href="../recipes/mlip_recipes.html" class="md-nav__link">
+      <a href="./mlip_recipes.html" class="md-nav__link">
         
   
   
@@ -1092,8 +1218,6 @@
                 
   
   
-    
-  
   
   
     
@@ -1103,11 +1227,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_6" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_6" >
         
           
           <label class="md-nav__link" for="__nav_3_6" id="__nav_3_6_label" tabindex="0">
@@ -1117,7 +1241,7 @@
   <span class="md-ellipsis">
     
   
-  Miscellaneous
+  Additional Recipe Details
 
     
   </span>
@@ -1127,12 +1251,12 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_6_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_6_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3_6">
             <span class="md-nav__icon md-icon"></span>
             
   
-  Miscellaneous
+  Additional Recipe Details
 
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
@@ -1141,134 +1265,10 @@
                 
   
   
-    
-  
-  
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    
-  
-  Transferring Files
-
-    
-  </span>
-  
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="file_transfers.html" class="md-nav__link md-nav__link--active">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-  Transferring Files
-
-    
-  </span>
-  
-  
-
-      </a>
-      
-        
-
-
-<nav class="md-nav md-nav--secondary" aria-label="On this page">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      On this page
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#local-file-transfers" class="md-nav__link">
-    <span class="md-ellipsis">
-      <span class="md-typeset">
-        Local File Transfers
-      </span>
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Local File Transfers">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#transfers-from-a-known-file-location" class="md-nav__link">
-    <span class="md-ellipsis">
-      <span class="md-typeset">
-        Transfers from a Known File Location
-      </span>
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#transfers-between-jobs" class="md-nav__link">
-    <span class="md-ellipsis">
-      <span class="md-typeset">
-        Transfers Between Jobs
-      </span>
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#non-local-file-transfers" class="md-nav__link">
-    <span class="md-ellipsis">
-      <span class="md-typeset">
-        Non-Local File Transfers
-      </span>
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
   
   
     <li class="md-nav__item">
-      <a href="./torchsim.html" class="md-nav__link">
+      <a href="../miscellaneous/torchsim.html" class="md-nav__link">
         
   
   
@@ -6188,7 +6188,7 @@
     
     
       <li class="md-path__item">
-        <a href="../recipes/recipes_intro.html" class="md-path__link">
+        <a href="./recipes_intro.html" class="md-path__link">
           
   
   <span class="md-ellipsis">
@@ -6213,11 +6213,11 @@
     
     
       <li class="md-path__item">
-        <a href="file_transfers.html" class="md-path__link">
+        <a href="./recipes_intro.html" class="md-path__link">
           
   
   <span class="md-ellipsis">
-    Miscellaneous
+    Recipes
   </span>
 
         </a>
@@ -6234,7 +6234,7 @@
                 
                   
   
-    <a href="https://github.com/Quantum-Accelerators/quacc//blob/main/docs/user/miscellaneous/file_transfers.md" title="Edit this page" class="md-content__button md-icon" rel="edit">
+    <a href="https://github.com/Quantum-Accelerators/quacc//blob/main/docs/user/recipes/file_transfers.md" title="Edit this page" class="md-content__button md-icon" rel="edit">
       
       <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-file-pen" viewBox="0 0 24 24"><path d="M12.659 22H18a2 2 0 0 0 2-2V8a2.4 2.4 0 0 0-.706-1.706l-3.588-3.588A2.4 2.4 0 0 0 14 2H6a2 2 0 0 0-2 2v9.34"/><path d="M14 2v5a1 1 0 0 0 1 1h5M10.378 12.622a1 1 0 0 1 3 3.003L8.36 20.637a2 2 0 0 1-.854.506l-2.867.837a.5.5 0 0 1-.62-.62l.836-2.869a2 2 0 0 1 .506-.853z"/></svg>
     </a>
@@ -6278,7 +6278,7 @@
 </span></code></pre></div>
 <div class="admonition tip">
 <p class="admonition-title">Glob Patterns</p>
-<p>The <code>copy_files</code> keyword argument also supports <a href="https://docs.python.org/3/library/pathlib.html#pathlib.Path.glob">glob patterns</a> for the filenames, such as <code>WAVECAR*</code> to copy all files that start with <code>WAVECAR</code> from the source.</p>
+<p>The <code>copy_files</code> keyword argument supports <a href="https://docs.python.org/3/library/pathlib.html#pathlib.Path.glob">glob patterns</a> for the filenames, such as <code>WAVECAR*</code> to copy all files that start with <code>WAVECAR</code> from the source.</p>
 </div>
 <h3 id="transfers-between-jobs">Transfers Between Jobs<a class="headerlink" href="#transfers-between-jobs" title="Permanent link">&para;</a></h3>
 <p>Sometimes, however, you may not necessarily know <em>a priori</em> where the source file is. For instance, perhaps you want to copy (and decompress) the file <code>WAVECAR.gz</code> from a previous job in your workflow that is stored in a unique directory only determined at runtime. In this scenario, you can still use the <code>copy_files</code> keyword argument, but you will need to fetch the prior job's directory.</p>
@@ -6336,7 +6336,7 @@
       <nav class="md-footer__inner md-grid" aria-label="Footer" >
         
           
-          <a href="../db/basics.html" class="md-footer__link md-footer__link--prev" aria-label="Previous: Setup and Storing Results">
+          <a href="./workflows.html" class="md-footer__link md-footer__link--prev" aria-label="Previous: Intro to Flows">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-arrow-left" viewBox="0 0 24 24"><path d="m12 19-7-7 7-7M19 12H5"/></svg>
@@ -6346,20 +6346,20 @@
                 Previous
               </span>
               <div class="md-ellipsis">
-                Setup and Storing Results
+                Intro to Flows
               </div>
             </div>
           </a>
         
         
           
-          <a href="./torchsim.html" class="md-footer__link md-footer__link--next" aria-label="Next: TorchSim Recipes">
+          <a href="./mlip_recipes.html" class="md-footer__link md-footer__link--next" aria-label="Next: MLIP-Compatible Recipes">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Next
               </span>
               <div class="md-ellipsis">
-                TorchSim Recipes
+                MLIP-Compatible Recipes
               </div>
             </div>
             <div class="md-footer__button md-icon">
