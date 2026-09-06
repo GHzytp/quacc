@@ -25,11 +25,11 @@
       
       
       <link rel="icon" href="../../../../images/quacc_favicon.png">
-      <meta name="generator" content="zensical-0.0.58">
+      <meta name="generator" content="zensical-0.0.59">
     
     
       
-        <title>Matpes - quacc</title>
+        <title>matpes - quacc</title>
       
     
     
@@ -122,7 +122,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Matpes
+              matpes
             
           </span>
         </div>
@@ -6420,9 +6420,14 @@
               
               <article class="md-content__inner md-typeset">
                 
+  
+  
+    
+  
+  
                   
   
-    <a href="https://github.com/Quantum-Accelerators/quacc//blob/main/docs/reference/quacc/recipes/vasp/matpes.md" title="Edit this page" class="md-content__button md-icon" rel="edit">
+    <a href="https://github.com/Quantum-Accelerators/quacc/blob/main/src/quacc/recipes/vasp/matpes.py" title="Edit this page" class="md-content__button md-icon" rel="edit">
       
       <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-file-pen" viewBox="0 0 24 24"><path d="M12.659 22H18a2 2 0 0 0 2-2V8a2.4 2.4 0 0 0-.706-1.706l-3.588-3.588A2.4 2.4 0 0 0 14 2H6a2 2 0 0 0-2 2v9.34"/><path d="M14 2v5a1 1 0 0 0 1 1h5M10.378 12.622a1 1 0 0 1 3 3.003L8.36 20.637a2 2 0 0 1-.854.506l-2.867.837a.5.5 0 0 1-.62-.62l.836-2.869a2 2 0 0 1 .506-.853z"/></svg>
     </a>
@@ -6430,7 +6435,7 @@
   
 
 
-  <h1 id="__skip">Matpes</h1>
+  <h1 id="__skip">matpes</h1>
 
 <div class="doc doc-object doc-module">
 
@@ -6716,7 +6721,7 @@ See the type-hint for the data structure.</p>
 <span class="normal"><a href="#__codelineno-0-219">219</a></span>
 <span class="normal"><a href="#__codelineno-0-220">220</a></span>
 <span class="normal"><a href="#__codelineno-0-221">221</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-0-179"><a id="__codelineno-0-179" name="__codelineno-0-179"></a><span class="nd">@job</span>
-</span><span id="__span-0-180"><a id="__codelineno-0-180" name="__codelineno-0-180"></a><span class="nd">@requires</span><span class="p">(</span><span class="n">has_atomate2</span><span class="p">,</span> <span class="s2">"atomate2 is not installed. Run `pip install quacc[mp]`"</span><span class="p">)</span>
+</span><span id="__span-0-180"><a id="__codelineno-0-180" name="__codelineno-0-180"></a><span class="nd">@requires</span><span class="p">(</span><span class="n">has_atomate2</span><span class="p">,</span> <span class="s2">"atomate2 is not installed. Run `pip install quacc[atomate2]`"</span><span class="p">)</span>
 </span><span id="__span-0-181"><a id="__codelineno-0-181" name="__codelineno-0-181"></a><span class="k">def</span><span class="w"> </span><span class="nf">fastpes_static_job</span><span class="p">(</span>
 </span><span id="__span-0-182"><a id="__codelineno-0-182" name="__codelineno-0-182"></a>    <span class="n">atoms</span><span class="p">:</span> <span class="n">Atoms</span><span class="p">,</span>
 </span><span id="__span-0-183"><a id="__codelineno-0-183" name="__codelineno-0-183"></a>    <span class="n">hf_exchange</span><span class="p">:</span> <span class="nb">float</span> <span class="o">=</span> <span class="mf">0.0</span><span class="p">,</span>
@@ -6876,7 +6881,7 @@ steps. Use the <code>all</code> key to customize both steps.</p>
 <span class="normal"><a href="#__codelineno-0-174">174</a></span>
 <span class="normal"><a href="#__codelineno-0-175">175</a></span>
 <span class="normal"><a href="#__codelineno-0-176">176</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-0-136"><a id="__codelineno-0-136" name="__codelineno-0-136"></a><span class="nd">@flow</span>
-</span><span id="__span-0-137"><a id="__codelineno-0-137" name="__codelineno-0-137"></a><span class="nd">@requires</span><span class="p">(</span><span class="n">has_atomate2</span><span class="p">,</span> <span class="s2">"atomate2 is not installed. Run `pip install quacc[mp]`"</span><span class="p">)</span>
+</span><span id="__span-0-137"><a id="__codelineno-0-137" name="__codelineno-0-137"></a><span class="nd">@requires</span><span class="p">(</span><span class="n">has_atomate2</span><span class="p">,</span> <span class="s2">"atomate2 is not installed. Run `pip install quacc[atomate2]`"</span><span class="p">)</span>
 </span><span id="__span-0-138"><a id="__codelineno-0-138" name="__codelineno-0-138"></a><span class="k">def</span><span class="w"> </span><span class="nf">matpes_static_flow</span><span class="p">(</span>
 </span><span id="__span-0-139"><a id="__codelineno-0-139" name="__codelineno-0-139"></a>    <span class="n">atoms</span><span class="p">:</span> <span class="n">Atoms</span><span class="p">,</span>
 </span><span id="__span-0-140"><a id="__codelineno-0-140" name="__codelineno-0-140"></a>    <span class="n">job_params</span><span class="p">:</span> <span class="nb">dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="nb">dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="n">Any</span><span class="p">]]</span> <span class="o">|</span> <span class="kc">None</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
@@ -7157,7 +7162,7 @@ See the type-hint for the data structure.</p>
 <span class="normal"><a href="#__codelineno-0-131">131</a></span>
 <span class="normal"><a href="#__codelineno-0-132">132</a></span>
 <span class="normal"><a href="#__codelineno-0-133">133</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-0-39"><a id="__codelineno-0-39" name="__codelineno-0-39"></a><span class="nd">@job</span>
-</span><span id="__span-0-40"><a id="__codelineno-0-40" name="__codelineno-0-40"></a><span class="nd">@requires</span><span class="p">(</span><span class="n">has_atomate2</span><span class="p">,</span> <span class="s2">"atomate2 is not installed. Run `pip install quacc[mp]`"</span><span class="p">)</span>
+</span><span id="__span-0-40"><a id="__codelineno-0-40" name="__codelineno-0-40"></a><span class="nd">@requires</span><span class="p">(</span><span class="n">has_atomate2</span><span class="p">,</span> <span class="s2">"atomate2 is not installed. Run `pip install quacc[atomate2]`"</span><span class="p">)</span>
 </span><span id="__span-0-41"><a id="__codelineno-0-41" name="__codelineno-0-41"></a><span class="k">def</span><span class="w"> </span><span class="nf">matpes_static_job</span><span class="p">(</span>
 </span><span id="__span-0-42"><a id="__codelineno-0-42" name="__codelineno-0-42"></a>    <span class="n">atoms</span><span class="p">:</span> <span class="n">Atoms</span><span class="p">,</span>
 </span><span id="__span-0-43"><a id="__codelineno-0-43" name="__codelineno-0-43"></a>    <span class="o">*</span><span class="p">,</span>
@@ -7273,12 +7278,16 @@ See the type-hint for the data structure.</p>
 
 
 
+  
+  
+
 
 
 
 
 
                 
+
               </article>
             </div>
           
