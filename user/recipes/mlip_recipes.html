@@ -25,7 +25,7 @@
       
       
       <link rel="icon" href="../../images/quacc_favicon.png">
-      <meta name="generator" content="zensical-0.0.64">
+      <meta name="generator" content="zensical-0.0.65">
     
     
       
@@ -6329,6 +6329,10 @@
 
 <h1 id="mlip-compatible-recipes">MLIP-Compatible Recipes<a class="headerlink" href="#mlip-compatible-recipes" title="Permanent link">&para;</a></h1>
 <p>Several popular datasets used to train machine-learned interatomic potentials (MLIPs) were built from large collections of DFT calculations run with a specific, fixed set of computational settings. To let users generate additional data that is consistent with one of these datasets (e.g. to extend a dataset or build an internally-consistent benchmark without introducing methodological drift), quacc ships a set of recipes that reproduce those settings.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>While these recipes aim to reproduce the settings of each dataset, you should still manually confirm that the resulting calculator settings are consistent with the source dataset for good measure.</p>
+</div>
 <h2 id="supported-datasets">Supported Datasets<a class="headerlink" href="#supported-datasets" title="Permanent link">&para;</a></h2>
 <table>
 <thead>
@@ -6340,7 +6344,7 @@
 </thead>
 <tbody>
 <tr>
-<td><a href="https://pubs.acs.org/accacs/article/11/10/6059/459430/Open-Catalyst-2020-OC20-Dataset-and-Community">OC20</a></td>
+<td><a href="https://doi.org/10.1021/acscatal.0c04525">OC20</a></td>
 <td><a class="autorefs autorefs-internal" title="&lt;span class=&quot;doc doc-object-name doc-function-name&quot;&gt;oc20_static_job&lt;/span&gt;" href="../../reference/quacc/recipes/vasp/fairchem.html#quacc.recipes.vasp.fairchem.oc20_static_job">quacc.recipes.vasp.fairchem.oc20_static_job</a></td>
 <td><code>quacc[fairchem]</code></td>
 </tr>
@@ -6350,7 +6354,7 @@
 <td>none</td>
 </tr>
 <tr>
-<td><a href="https://arxiv.org/abs/2509.17862">OC25</a></td>
+<td><a href="https://arxiv.org/abs/2509.17862v1">OC25</a></td>
 <td><a class="autorefs autorefs-internal" title="&lt;span class=&quot;doc doc-object-name doc-function-name&quot;&gt;oc25_static_job&lt;/span&gt;" href="../../reference/quacc/recipes/vasp/fairchem.html#quacc.recipes.vasp.fairchem.oc25_static_job">quacc.recipes.vasp.fairchem.oc25_static_job</a></td>
 <td><code>quacc[fairchem]</code></td>
 </tr>
@@ -6362,7 +6366,7 @@
 <tr>
 <td><a href="https://www.nature.com/articles/s41597-026-06628-2">OMC25</a></td>
 <td><a class="autorefs autorefs-internal" title="&lt;span class=&quot;doc doc-object-name doc-function-name&quot;&gt;omc_static_job&lt;/span&gt;" href="../../reference/quacc/recipes/vasp/fairchem.html#quacc.recipes.vasp.fairchem.omc_static_job">quacc.recipes.vasp.fairchem.omc_static_job</a></td>
-<td><code>quacc[fairchem]</code></td>
+<td><code>quacc[atomate2]</code></td>
 </tr>
 <tr>
 <td><a href="https://arxiv.org/abs/2505.08762">OMol25</a></td>
@@ -6370,8 +6374,13 @@
 <td><code>quacc[fairchem]</code></td>
 </tr>
 <tr>
+<td><a href="https://doi.org/10.1021/acscentsci.3c01629">ODAC23</a></td>
+<td><a class="autorefs autorefs-internal" title="&lt;span class=&quot;doc doc-object-name doc-function-name&quot;&gt;odac23_static_job&lt;/span&gt;" href="../../reference/quacc/recipes/vasp/fairchem.html#quacc.recipes.vasp.fairchem.odac23_static_job">quacc.recipes.vasp.fairchem.odac23_static_job</a></td>
+<td>none</td>
+</tr>
+<tr>
 <td><a href="https://arxiv.org/abs/2508.03162">ODAC25</a></td>
-<td><a class="autorefs autorefs-internal" title="&lt;span class=&quot;doc doc-object-name doc-function-name&quot;&gt;odac_static_job&lt;/span&gt;" href="../../reference/quacc/recipes/vasp/fairchem.html#quacc.recipes.vasp.fairchem.odac_static_job">quacc.recipes.vasp.fairchem.odac_static_job</a></td>
+<td><a class="autorefs autorefs-internal" title="&lt;span class=&quot;doc doc-object-name doc-function-name&quot;&gt;odac25_static_job&lt;/span&gt;" href="../../reference/quacc/recipes/vasp/fairchem.html#quacc.recipes.vasp.fairchem.odac25_static_job">quacc.recipes.vasp.fairchem.odac25_static_job</a></td>
 <td>none</td>
 </tr>
 <tr>
